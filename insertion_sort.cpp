@@ -28,5 +28,6 @@ void input (){
 }
 
 void insersitonsort(){
+
     
 }
