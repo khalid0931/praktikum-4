@@ -28,6 +28,25 @@ void input (){
 }
 
 void insersitonsort(){
+    int temp;
+    int j;
 
-    
+    for (int i = 0; i < n; i++){
+        temp = arr[i];
+        while (j >= 0 && arr[j] > temp){
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = temp;
+        cout << "\nstep" << i << ": ";
+        for (int k = 0; k < n; k++)
+        {
+            cout << arr[k] << " ";
+        }
+    }
+
+}
+
+void display(){
+    cout
 }
