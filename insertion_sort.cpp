@@ -4,7 +4,6 @@ using namespace std;
 int arr[20];
 int n;
 
-
 void input (){
     while (true){
         cout << "masukan jumlah data pada array = ";
@@ -17,6 +16,7 @@ void input (){
             cout << "\nArrat Tidak Boleh lebih dari 20\n";
         }
     }
+    
     cout << endl;
     cout << "=============================================";
     cout << "==============masukan elementv array=========";
